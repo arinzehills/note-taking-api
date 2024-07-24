@@ -13,8 +13,8 @@ This is a Node.js backend service for the Notetaking App, providing API endpoint
 
 1. Clone the repository
     ```bash
-    git clone https://github.com/yourusername/node-backend.git
-    cd node-backend
+    git clone https://github.com/arinzehills/note-taking-api.git
+    cd node-taking-api
     ```
 
 2. Install dependencies
@@ -25,7 +25,7 @@ This is a Node.js backend service for the Notetaking App, providing API endpoint
 3. Create a `.env` file in the root directory and add your environment variables
     ```env
     PORT=3000
-    FIREBASE_SERVICE_ACCOUNT_KEY=path/to/serviceAccountKey.json
+    GOOGLE_APPLICATION_CREDENTIALS=path/to/serviceAccountKey.json
     ```
 
 ### Running the Server
